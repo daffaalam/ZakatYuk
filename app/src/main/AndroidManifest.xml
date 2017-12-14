@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.daffaalam.zakat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppThemeX">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home" />
+        <activity
+            android:name=".FiqhZakatActivity"
+            android:label="Fiqh Zakat" />
+        <activity
+            android:name=".BabFiqhActivity"
+            android:label="Fiqh Zakat" />
+        <activity
+            android:name=".KalkulatorActivity"
+            android:label="Kalkulator Zakat" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About Developer" />
+    </application>
+
+</manifest>
