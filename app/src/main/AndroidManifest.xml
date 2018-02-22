@@ -27,16 +27,32 @@
             android:label="Home" />
         <activity
             android:name=".FiqhZakatActivity"
-            android:label="Fiqh Zakat" />
+            android:label="Fiqh Zakat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
         <activity
             android:name=".BabFiqhActivity"
-            android:label="Fiqh Zakat" />
+            android:label="Fiqh Zakat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FiqhZakatActivity" />
+        </activity>
         <activity
             android:name=".KalkulatorActivity"
-            android:label="Kalkulator Zakat" />
+            android:label="Kalkulator Zakat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
         <activity
             android:name=".AboutActivity"
-            android:label="About Developer" />
+            android:label="About Developer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
     </application>
 
 </manifest>

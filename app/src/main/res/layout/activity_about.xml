@@ -40,7 +40,8 @@
             <TextView
                 android:id="@+id/abt_ver"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack" />
 
         </LinearLayout>
 
@@ -49,7 +50,9 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
         android:background="#000" />
 
     <ScrollView
@@ -481,6 +484,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="source : \nhttps://zakat.or.id/"
+                    android:textColor="@color/colorBlack"
                     android:textSize="12sp"
                     tools:ignore="HardcodedText" />
 

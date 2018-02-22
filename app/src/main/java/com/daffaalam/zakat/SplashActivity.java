@@ -14,15 +14,15 @@ import android.widget.ProgressBar;
 
 public class SplashActivity extends AppCompatActivity {
 
-    int status = 0;
-    Handler handler = new Handler();
+//    int status = 0;
+//    Handler handler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        final ProgressBar progressBar = findViewById(R.id.progbar);
+//        final ProgressBar progressBar = findViewById(R.id.progbar);
         final ImageView imageView = findViewById(R.id.logo);
 
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.fade);
@@ -38,7 +38,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                 finish();
             }
-        }, 3500);
+        }, 4000);
 
 //        new Thread(new Runnable() {
 //            @Override
